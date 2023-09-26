@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/Logo.png'
 
 const Navbar = () => {
     const navRoutes = (
         <>
         <li>
-            <Link to="/">
+            <NavLink   to="/">
             Home
-            </Link>
+            </NavLink>
         </li>
         <li>
-            <Link to="/">
+            <NavLink  to="/donate">
             Donation
-            </Link>
+            </NavLink>
         </li>
         <li>
-            <Link to="/">
+            <NavLink  to="/statistics">
             Statistics
-            </Link>
+            </NavLink>
         </li>
         
         </>
