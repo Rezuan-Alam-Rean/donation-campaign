@@ -1,0 +1,135 @@
+
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/GP2ccFR/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF26",
+      "card_bg": "#0052FF",
+      "text_and_button_bg": "#0052FF",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/CVJ2HKb/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A26",
+      "card_bg": "#FF444A",
+      "text_and_button_bg": "#FF444A",
+      "description": "Suspendisse potenti. Sed auctor diam quis elit tristique, in volutpat odio consequat.",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/34D4p76/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F26",
+      "card_bg": "#79C23F",
+      "text_and_button_bg": "#79C23F",
+      "description": "Fusce volutpat est non nulla tincidunt, a tempor velit hendrerit.",
+      "price": 10
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/K04jhgb/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714726",
+      "card_bg": "#F87147",
+      "text_and_button_bg": "#F87147",
+      "description": "Vivamus fringilla elit et feugiat. Aliquam nec lectus in turpis pharetra viverra.",
+      "price": 30
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/GP2ccFR/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF26",
+      "card_bg": "#0052FF",
+      "text_and_button_bg": "#0052FF",
+      "description": "Nullam ac nisl vel est congue pharetra. Sed euismod orci eu tortor rhoncus, quis elementum ex varius.",
+      "price": 15
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/CVJ2HKb/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A26",
+      "card_bg": "#FF444A",
+      "text_and_button_bg": "#FF444A",
+      "description": "Pellentesque consequat erat a bibendum. Sed lacinia magna id orci euismod convallis.",
+      "price": 40
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/34D4p76/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F26",
+      "card_bg": "#79C23F",
+      "text_and_button_bg": "#79C23F",
+      "description": "Donec in turpis eu erat cursus convallis. Nam pharetra purus at dui auctor efficitur.",
+      "price": 20
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/K04jhgb/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714726",
+      "card_bg": "#F87147",
+      "text_and_button_bg": "#F87147",
+      "description": "Cras scelerisque augue nec malesuada. Sed sit amet velit nec libero varius convallis.",
+      "price": 35
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/GP2ccFR/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF26",
+      "card_bg": "#0052FF",
+      "text_and_button_bg": "#0052FF",
+      "description": "Aenean vitae orci a nunc elementum auctor. Sed sed dolor id felis convallis pharetra.",
+      "price": 25
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/CVJ2HKb/Rectangle-4288.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A26",
+      "card_bg": "#FF444A",
+      "text_and_button_bg": "#FF444A",
+      "description": "Duis euismod arcu vel libero blandit, at congue felis bibendum.",
+      "price": 60
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/34D4p76/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F26",
+      "card_bg": "#79C23F",
+      "text_and_button_bg": "#79C23F",
+      "description": "Vestibulum eleifend arcu vel varius. Fusce nec quam in purus fringilla aliquet.",
+      "price": 12
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/K04jhgb/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F8714726",
+      "card_bg": "#F87147",
+      "text_and_button_bg": "#F87147",
+      "description": "Nunc in velit id nunc egestas blandit. Vivamus non risus ut eros tincidunt pharetra.",
+      "price": 28
+    }
+  ]
