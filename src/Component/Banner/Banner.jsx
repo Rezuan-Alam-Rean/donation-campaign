@@ -9,13 +9,13 @@ const Banner = ({setSearchText,handleSearch}) => {
   <div className="hero-overlay bg-opacity-80"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <div className=" flex">
+      <h1 className="mb-5 text-5xl font-bold">I Grow By Helping People </h1>
+      
+      <div className=" flex ">
                 <input
                   onChange={(event) => setSearchText(event.target.value)}
                   type="text"
-                  placeholder="Search"
+                  placeholder="Search here...."
                   className="border  p-2 bg-transparent border-cyan-100  pr-16 text-white::placeholder  placeholder-white w-full"
                   required
                 />

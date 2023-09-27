@@ -46,7 +46,7 @@ const Donate = () => {
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
         <div>
-          {favorites.length > 0 && (
+          {/* {favorites.length > 0 && (
             <div>
               <button
                 onClick={handleRemove}
@@ -57,7 +57,7 @@ const Donate = () => {
 
               <h1>Total price : {totalPrice}</h1>
             </div>
-          )}
+          )} */}
 
           <div className="grid grid-cols-2 gap-5">
             {
@@ -75,7 +75,7 @@ const Donate = () => {
                 </div>
               ))
 
-                : favorites.slice(0, 2).map((data) => (
+                : favorites.slice(0, 4).map((data) => (
                   <div className="card card-side  shadow-xl">
                     <figure><img src={data?.picture} alt="Movie" /></figure>
                     <div className="card-body">
@@ -91,7 +91,7 @@ const Donate = () => {
             }
           </div>
 
-          {favorites.length > 2 && <button onClick={() => setIsShow(!isShow)} className="px-5 bg-green-200 block mx-auto">
+          {favorites.length > 2 && <button  onClick={() => setIsShow(!isShow)} className="px-5 btn btn-secondary  block mx-auto mt-5 mb-10">
             {isShow ? "See less" : "See more"}
           </button>}
         </div>

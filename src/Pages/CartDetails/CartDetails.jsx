@@ -28,7 +28,7 @@ const CartDetails = () => {
     if (!favoriteItems) {
       addedFavoritesArray.push(data);
       localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-      alert("Good job!", "Products added successfully!", "success");
+      alert("Donation submit ");
     }
 
     else {
@@ -41,10 +41,10 @@ const CartDetails = () => {
 
         addedFavoritesArray.push(...favoriteItems, data);
         localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-        alert("Good job!", "Products added successfully!", "success");
+        alert("Donation store");
 
       } else {
-        alert("Error!", "No duplicate !", "error");
+        alert("No you can not repate");
 
       }
 
@@ -61,12 +61,13 @@ const CartDetails = () => {
 
 
   return (
-    <div className=''>
+    <div className=' text-center '>
 
-      <img className='w-[600px]' src={data.picture} alt="" />
-      <h1>{data.title}</h1>
+      <img className='w-[800px]  m-auto ' src={data.picture} alt=""  />
+      <button onClick={handleAddToFavorites} className='btn p-3 mt-4 ' style={{ backgroundColor: data?.category_bg, color: data.text_and_button_bg }}>Price: ${data?.price}</button>
+      <h1 className='text-3xl font-bold mt-5 mb-5'>{data.title}</h1>
       <p>{data.description}</p>
-      <button onClick={handleAddToFavorites} className='btn p-3' style={{ backgroundColor: data?.category_bg, color: data.text_and_button_bg }}>Price: ${data?.price}</button>
+      
     </div>
   );
 };

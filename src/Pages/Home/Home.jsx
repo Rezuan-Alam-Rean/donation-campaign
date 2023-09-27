@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <div>
             <Banner setSearchText={setSearchText} handleSearch={handleSearch}></Banner>
-           <div className=" mt-10 grid md:grid-cols-4 gap-5">
+           <div className=" mt-10 grid lg:grid-cols-4 md:grid-cols-2 gap-5">
 {
     data?.map((d,i)=><Cart key={i} d={d}></Cart>)
 }
