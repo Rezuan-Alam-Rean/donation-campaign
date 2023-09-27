@@ -46,7 +46,7 @@ const Donate = () => {
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
         <div>
-          {/* {favorites.length > 0 && (
+          {favorites.length > 0 && (
             <div>
               <button
                 onClick={handleRemove}
@@ -57,19 +57,19 @@ const Donate = () => {
 
               <h1>Total price : {totalPrice}</h1>
             </div>
-          )} */}
+          )}
 
           <div className="grid grid-cols-2 gap-5">
             {
               isShow ? favorites.map((data) => (
-                <div className="card card-side  shadow-xl">
+                <div className="card card-side  shadow-xl" >
                   <figure><img src={data?.picture} alt="Movie" /></figure>
-                  <div className="card-body">
+                  <div className="card-body" style={{ backgroundColor: data?.category_bg }} >
                     <p className={`p-2 max-w-max `} style={{ backgroundColor: data?.category_bg, color: data?.text_and_button_bg }}>{data?.category}</p>
                     <h2 className="card-title" style={{ color: data?.text_and_button_bg }}>{data?.title}</h2>
                     <p className=' p-3 max-w-max ' style={{ backgroundColor: data?.category_bg, color: data.text_and_button_bg }}>Price: ${data?.price}</p>
                     <div className="">
-                      <button className="btn btn-primary">View Details</button>
+                      <button className="btn "style={{backgroundColor: data?.category_bg, color: data.text_and_button_bg}} >View Details</button>
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Donate = () => {
                       <h2 className="card-title" style={{ color: data?.text_and_button_bg }}>{data?.title}</h2>
                       <p className=' p-3 max-w-max ' style={{ backgroundColor: data?.category_bg, color: data.text_and_button_bg }}>Price: ${data?.price}</p>
                       <div className="">
-                        <button className="btn btn-primary">View Details</button>
+                        <button className="btn  " style={{backgroundColor: data?.category_bg, color: data.text_and_button_bg}} >View Details</button>
                       </div>
                     </div>
                   </div>
