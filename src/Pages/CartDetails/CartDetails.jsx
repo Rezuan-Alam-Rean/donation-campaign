@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import toast from 'react-hot-toast';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const CartDetails = () => {
@@ -28,7 +29,7 @@ const CartDetails = () => {
     if (!favoriteItems) {
       addedFavoritesArray.push(data);
       localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-      alert("Donation submit ");
+      toast.success("Submitted")
     }
 
     else {
@@ -41,10 +42,12 @@ const CartDetails = () => {
 
         addedFavoritesArray.push(...favoriteItems, data);
         localStorage.setItem("favorites", JSON.stringify(addedFavoritesArray));
-        alert("Donation store");
+      
+        toast.success("-Donation store")
 
       } else {
-        alert("No you can not repate");
+       
+        toast.error("No you can not repate")
 
       }
 

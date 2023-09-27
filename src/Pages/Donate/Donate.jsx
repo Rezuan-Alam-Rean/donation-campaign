@@ -46,23 +46,12 @@ const Donate = () => {
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
         <div>
-          {favorites.length > 0 && (
-            <div>
-              <button
-                onClick={handleRemove}
-                className="px-5 bg-green-200 block mx-auto"
-              >
-                Deleted All favorites
-              </button>
-
-              <h1>Total price : {totalPrice}</h1>
-            </div>
-          )}
+    
 
           <div className="grid grid-cols-2 gap-5">
             {
               isShow ? favorites.map((data) => (
-                <div className="card card-side  shadow-xl" >
+                <div className="card card-side  shadow-xl" style={{ backgroundColor: data?.category_bg }}>
                   <figure><img src={data?.picture} alt="Movie" /></figure>
                   <div className="card-body" style={{ backgroundColor: data?.category_bg }} >
                     <p className={`p-2 max-w-max `} style={{ backgroundColor: data?.category_bg, color: data?.text_and_button_bg }}>{data?.category}</p>
@@ -76,7 +65,7 @@ const Donate = () => {
               ))
 
                 : favorites.slice(0, 4).map((data) => (
-                  <div className="card card-side  shadow-xl">
+                  <div className="card card-side  shadow-xl" style={{ backgroundColor: data?.category_bg }}>
                     <figure><img src={data?.picture} alt="Movie" /></figure>
                     <div className="card-body">
                       <p className={`p-2 max-w-max `} style={{ backgroundColor: data?.category_bg, color: data?.text_and_button_bg }}>{data?.category}</p>

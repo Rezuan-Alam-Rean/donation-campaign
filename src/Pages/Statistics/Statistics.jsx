@@ -63,7 +63,7 @@ const donates =
 
      <div>
 
-<div className='bg-gray-200'>
+<div >
                          
 
                          <h1 className='text-3xl font-bold text-center  text-gray-700'>Donation</h1>
@@ -93,8 +93,15 @@ const donates =
              
                      </div>
 
-<div>
-    <p>My donation</p>
+<div className="flex gap-5 justify-center   ">
+  <div className="flex gap-5">
+  <p>My donation  </p>
+    <p className=" border-b-8 border-[#FF444A] w-16" ></p>
+  </div>
+  <div className="flex gap-5">
+  <p>Total donation  </p>
+    <p className=" border-b-8 border-[#00C49F] w-16" ></p>
+  </div>
 </div>
 
      </div>   
