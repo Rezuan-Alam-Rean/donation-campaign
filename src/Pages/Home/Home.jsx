@@ -6,7 +6,7 @@ import Banner from "../../Component/Banner/Banner";
 const Home = () => {
     const [data,setData]=useState([])
     useEffect(()=>{
-        fetch('/public/fakedata.json')
+        fetch('/fakedata.json')
         .then((res)=>res.json())
         .then((data)=>setData(data));
         console.log(data);

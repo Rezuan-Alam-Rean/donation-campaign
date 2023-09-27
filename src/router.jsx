@@ -34,7 +34,7 @@ const myCreatedRoute =  createBrowserRouter([
             {
                 path : "/details/:id",
                 element: <CartDetails></CartDetails>,
-                loader : ()=> fetch(`/public/fakedata.json`)
+                loader : ()=> fetch(`/fakedata.json`)
             },
           
         ]
